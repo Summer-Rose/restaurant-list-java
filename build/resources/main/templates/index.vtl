@@ -16,3 +16,14 @@
   </div>
   <button type="submit" class="btn btn-success">Add</button>
 </form>
+
+<hr/>
+
+#if ($restaurantList)
+<h2>Restaurants I've Been To:</h2>
+<ul>
+  #foreach($restaurant in $restaurantList)
+    <li>$restaurant.getName(), $restaurant.getQuadrant()</li>
+  #end
+</ul>
+#end
