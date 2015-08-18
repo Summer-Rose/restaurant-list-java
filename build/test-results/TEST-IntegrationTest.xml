@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="IntegrationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2015-08-18T16:43:39" hostname="epicodus-107.local" time="0.258">
+<testsuite name="IntegrationTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2015-08-18T17:46:16" hostname="epicodus-107.local" time="0.384">
   <properties/>
-  <testcase name="rootTest" classname="IntegrationTest" time="0.258">
-    <failure message="java.lang.AssertionError: &#10;Expecting:&#10; &lt;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;title&gt;&#13;&#10;      Restaurant List&#13;&#10;    &lt;/title&gt;&#13;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css&quot;/&gt;&#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;div class=&quot;container&quot;&gt;&#13;&#10;      &lt;h1&gt;&#13;&#10;        Restaurant List&#13;&#10;      &lt;/h1&gt;&#13;&#10;      &lt;p&gt;&#13;&#10;        Keep track of the restaurants you've been to!&#13;&#10;      &lt;/p&gt;&#13;&#10;      &lt;form action=&quot;/restaurant-list&quot; method=&quot;post&quot;&gt;&#13;&#10;        &lt;div class=&quot;form-group&quot;&gt;&#13;&#10;          &lt;label for=&quot;restaurantName&quot;&gt;&#13;&#10;            Restaurant Name:&#13;&#10;          &lt;/label&gt;&#13;&#10;          &lt;input name=&quot;restaurantName&quot; id=&quot;restaurantName&quot; type=&quot;text&quot; class=&quot;form-control&quot;/&gt;&#13;&#10;        &lt;/div&gt;&#13;&#10;        &lt;div class=&quot;form-group&quot;&gt;&#13;&#10;          &lt;label for=&quot;quadrant&quot;&gt;&#13;&#10;            Neighborhood:&#13;&#10;          &lt;/label&gt;&#13;&#10;          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;nw&quot; checked=&quot;checked&quot;/&gt;&#13;&#10;          NW&#10;    &#13;&#10;          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;ne&quot;/&gt;&#13;&#10;          NE&#10;    &#13;&#10;          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;se&quot;/&gt;&#13;&#10;          SE&#10;    &#13;&#10;          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;sw&quot;/&gt;&#13;&#10;          SW&#10;  &#13;&#10;        &lt;/div&gt;&#13;&#10;        &lt;button type=&quot;submit&quot; class=&quot;btn btn-success&quot;&gt;&#13;&#10;          Add&#13;&#10;        &lt;/button&gt;&#13;&#10;      &lt;/form&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;&quot;&gt;&#10;to contain:&#10; &lt;&quot;Restaurasdf List&quot;&gt; " type="java.lang.AssertionError">java.lang.AssertionError: 
+  <testcase name="rootTest" classname="IntegrationTest" time="0.261"/>
+  <testcase name="restaurantIsDisplayedTest" classname="IntegrationTest" time="0.074"/>
+  <testcase name="multipleRestaurantsAreDisplayedTest" classname="IntegrationTest" time="0.041">
+    <failure message="java.lang.AssertionError: &#10;Expecting:&#10; &lt;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;title&gt;&#13;&#10;      Restaurant List&#13;&#10;    &lt;/title&gt;&#13;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css&quot;/&gt;&#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;div class=&quot;container&quot;&gt;&#13;&#10;      &lt;h1&gt;&#13;&#10;        Restaurant List&#13;&#10;      &lt;/h1&gt;&#13;&#10;      &lt;p&gt;&#13;&#10;        Keep track of the restaurants you've been to!&#13;&#10;      &lt;/p&gt;&#13;&#10;      &lt;form action=&quot;/restaurant-list&quot; method=&quot;post&quot;&gt;&#13;&#10;        &lt;div class=&quot;form-group&quot;&gt;&#13;&#10;          &lt;label for=&quot;restaurantName&quot;&gt;&#13;&#10;            Restaurant Name:&#13;&#10;          &lt;/label&gt;&#13;&#10;          &lt;input name=&quot;restaurantName&quot; id=&quot;restaurantName&quot; type=&quot;text&quot; class=&quot;form-control&quot;/&gt;&#13;&#10;        &lt;/div&gt;&#13;&#10;        &lt;div class=&quot;form-group&quot;&gt;&#13;&#10;          &lt;label for=&quot;quadrant&quot;&gt;&#13;&#10;            Neighborhood:&#13;&#10;          &lt;/label&gt;&#13;&#10;          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;nw&quot; id=&quot;nw&quot; checked=&quot;checked&quot;/&gt;&#13;&#10;          NW&#10;    &#13;&#10;          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;ne&quot; id=&quot;ne&quot;/&gt;&#13;&#10;          NE&#10;    &#13;&#10;          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;se&quot; id=&quot;se&quot;/&gt;&#13;&#10;          SE&#10;    &#13;&#10;          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;sw&quot; id=&quot;sw&quot;/&gt;&#13;&#10;          SW&#10;  &#13;&#10;        &lt;/div&gt;&#13;&#10;        &lt;button type=&quot;submit&quot; class=&quot;btn btn-success&quot;&gt;&#13;&#10;          Add&#13;&#10;        &lt;/button&gt;&#13;&#10;      &lt;/form&gt;&#13;&#10;      &lt;hr/&gt;&#13;&#10;      &lt;h2&gt;&#13;&#10;        Restaurants I've Been To:&#13;&#10;      &lt;/h2&gt;&#13;&#10;      &lt;ul&gt;&#13;&#10;        &lt;li&gt;&#13;&#10;          Lardo, SE&#13;&#10;        &lt;/li&gt;&#13;&#10;        &lt;li&gt;&#13;&#10;          People's Pig, NE&#13;&#10;        &lt;/li&gt;&#13;&#10;      &lt;/ul&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;&quot;&gt;&#10;to contain:&#10; &lt;&quot;PeopdfdsPig, NE&quot;&gt; " type="java.lang.AssertionError">java.lang.AssertionError: 
 Expecting:
  &lt;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;html&gt;
@@ -31,16 +33,16 @@ Expecting:
           &lt;label for=&quot;quadrant&quot;&gt;
             Neighborhood:
           &lt;/label&gt;
-          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;nw&quot; checked=&quot;checked&quot;/&gt;
+          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;nw&quot; id=&quot;nw&quot; checked=&quot;checked&quot;/&gt;
           NW
     
-          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;ne&quot;/&gt;
+          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;ne&quot; id=&quot;ne&quot;/&gt;
           NE
     
-          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;se&quot;/&gt;
+          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;se&quot; id=&quot;se&quot;/&gt;
           SE
     
-          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;sw&quot;/&gt;
+          &lt;input type=&quot;radio&quot; name=&quot;quadrant&quot; value=&quot;sw&quot; id=&quot;sw&quot;/&gt;
           SW
   
         &lt;/div&gt;
@@ -48,13 +50,25 @@ Expecting:
           Add
         &lt;/button&gt;
       &lt;/form&gt;
+      &lt;hr/&gt;
+      &lt;h2&gt;
+        Restaurants I've Been To:
+      &lt;/h2&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          Lardo, SE
+        &lt;/li&gt;
+        &lt;li&gt;
+          People's Pig, NE
+        &lt;/li&gt;
+      &lt;/ul&gt;
     &lt;/div&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 &quot;&gt;
 to contain:
- &lt;&quot;Restaurasdf List&quot;&gt; 
-	at IntegrationTest.rootTest(IntegrationTest.java:23)
+ &lt;&quot;PeopdfdsPig, NE&quot;&gt; 
+	at IntegrationTest.multipleRestaurantsAreDisplayedTest(IntegrationTest.java:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,10 +124,10 @@ to contain:
   <system-err><![CDATA[[Thread-4] INFO spark.webserver.SparkServer - == Spark has ignited ...
 [Thread-4] INFO spark.webserver.SparkServer - >> Listening on 0.0.0.0:4567
 [Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.0.2.v20130417
-[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@61218ffc{HTTP/1.1}{0.0.0.0:4567}
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@5d490191{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - >>> Spark shutting down ...
-[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@57a3d205 by 
-[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@61218ffc{HTTP/1.1}{0.0.0.0:4567}
+[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@54258e8e by 
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@5d490191{HTTP/1.1}{0.0.0.0:4567}
 [Test worker] INFO spark.webserver.SparkServer - done
 ]]></system-err>
 </testsuite>

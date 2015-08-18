@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UnitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-08-18T16:43:40" hostname="epicodus-107.local" time="0.001">
+<testsuite name="UnitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-08-18T17:46:16" hostname="epicodus-107.local" time="0.001">
   <properties/>
-  <testcase name="restaurant_getsRestaurantQuadrant_correctString" classname="UnitTest" time="0.001"/>
+  <testcase name="restaurant_getsRestaurantQuadrant_correctString" classname="UnitTest" time="0.0"/>
   <testcase name="restaurant_getsRestaurantName_correctString" classname="UnitTest" time="0.0"/>
   <testcase name="restaurant_instatiatesCorrectly" classname="UnitTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
