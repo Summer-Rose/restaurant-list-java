@@ -5,8 +5,8 @@ public class UnitTest {
 
 	@Test
 	public void restaurant_instatiatesCorrectly() {
-		Restaurant testRestaurant = new Restaurant();
-		assertEquals(true, testResaurant instanceof Restaurant);
+		Restaurant testRestaurant = new Restaurant("Lardo", "SW");
+		assertEquals(true, testRestaurant instanceof Restaurant);
 	}
 
 }
