@@ -15,4 +15,9 @@ public class UnitTest {
 		assertEquals("Lardo", testRestaurant.getName());
 	}
 
+	@Test
+	public void restaurant_getsRestaurantQuadrant_correctString() {
+		Restaurant testRestaurant = new Restaurant("Lardo", "SW");
+		assertEquals("SW", testRestaurant.getQuadrant());
+	}
 }

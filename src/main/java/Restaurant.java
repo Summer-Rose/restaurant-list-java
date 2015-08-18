@@ -10,4 +10,8 @@ public class Restaurant {
   public String getName() {
     return mRestaurantName;
   }
+
+  public String getQuadrant() {
+    return mQuadrant;
+  }
 }
