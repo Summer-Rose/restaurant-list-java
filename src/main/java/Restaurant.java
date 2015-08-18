@@ -6,4 +6,8 @@ public class Restaurant {
     mRestaurantName = restaurantName;
     mQuadrant = quadrant;
   }
+
+  public String getName() {
+    return mRestaurantName;
+  }
 }

@@ -9,4 +9,10 @@ public class UnitTest {
 		assertEquals(true, testRestaurant instanceof Restaurant);
 	}
 
+	@Test
+	public void restaurant_getsRestaurantName_correctString() {
+		Restaurant testRestaurant = new Restaurant("Lardo", "SW");
+		assertEquals("Lardo", testRestaurant.getName());
+	}
+
 }
