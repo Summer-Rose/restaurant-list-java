@@ -1,1 +1,1 @@
-web: ./build/restaurant/todo-list/bin/restaurant
+web: ./build/install/restaurant/bin/restaurant
